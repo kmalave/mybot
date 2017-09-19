@@ -24,12 +24,13 @@ First, make sure you have configured your Raspberry Pi for TJBot.
 
     $ cd tjbot/bootstrap && sudo sh bootstrap.sh
 
-Go to the `recipes/conversation` folder and install the dependencies.
+Go to the `recipes/mybot` folder and install the dependencies.
 
-    $ cd ../recipes/conversation
+    $ mkdir ../recipes/mybot
+    $ cd ../recipes/mybot
     $ npm install
 
-Create instances of the [Watson Conversation](https://www.ibm.com/watson/developercloud/conversation.html) and [Watson Text to Speech](https://www.ibm.com/watson/developercloud/text-to-speech.html) services and note the authentication credentials.
+Create instances of the services listed in the config.default.js file and note the authentication credentials.
 
 Import the `workspace-mybot-generic.json` file into the Watson Conversation service and note the workspace ID.
 
@@ -44,11 +45,6 @@ Run!
     sudo node mybot.js
 
 > Note the `sudo` command. Root user access is required to run TJBot recipes.
-
-# Watson Services
-- [Watson Conversation](https://www.ibm.com/watson/developercloud/conversation.html)
-- [Watson Text to Speech](https://www.ibm.com/watson/developercloud/text-to-speech.html)
-- [Watson Speech to Text](https://www.ibm.com/watson/developercloud/speech-to-text.html)
 
 # License
 This project is licensed under Apache 2.0. Full license text is available in [LICENSE](../../LICENSE).
