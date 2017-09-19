@@ -1,0 +1,39 @@
+{
+  "name": "mybot",
+  "description": "TJBot conversation LED Camera Tone News Weather Translate",
+  "version": "0.0.3",
+  "author": "Kent Malave <kmalave@us.ibm.com>",
+  "bugs": {
+    "url": "https://github.com/ibmtjbot/tjbot/issues"
+  },
+  "dependencies": {
+    "cfenv": "^1.0.3",
+    "death": "^1.1.0",
+    "form-data": "^2.3.1",
+    "newsapi": "^2.0.1",
+    "nodejs-box": "^0.1.3",
+    "passport-box": "^2.1.0",
+    "request": "^2.51.0",
+    "temp": "^0.8.3",
+    "tjbot": "^1.3.0",
+    "twilio": "^3.6.4",
+    "twitter": "^1.4.0",
+    "words-to-num": "0.0.2"
+  },
+  "main": "mybot.js",
+  "homepage": "",
+  "keywords": [
+    "tjbot",
+    "mybot",
+    "watson"
+  ],
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "scripts": {
+    "start": "sudo node mybot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
