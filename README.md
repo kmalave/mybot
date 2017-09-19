@@ -46,9 +46,6 @@ Run!
 
 > Note the `sudo` command. Root user access is required to run TJBot recipes.
 
-# License
-This project is licensed under Apache 2.0. Full license text is available in [LICENSE](../../LICENSE).
-
 # Contributing
 
 [IBM Watson Maker Kits](http://ibm.biz/mytjbot) are a collection of DIY open source templates to build things with [Watson](https://www.ibm.com/watson/developercloud/services-catalog.html) in a fun and easy way. [IBM TJBot](http://ibm.biz/mytjbot) is the first maker kit in the collection. You can 3D print or laser cut the robot body, then use one of our [recipes](recipes) to bring him to life!
